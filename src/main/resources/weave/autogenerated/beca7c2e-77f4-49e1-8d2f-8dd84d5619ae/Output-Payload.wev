@@ -1,0 +1,18 @@
+%dw 2.0
+
+type auto_beca7c2e_77f4_49e1_8d2f_8dd84d5619ae_Output_Payload = {
+  plane?: {
+    "type": String, 
+    totalSeats: Number, 
+    _?: Any
+  }, 
+  code: String, 
+  price: Number, 
+  origin: String, 
+  destination: String, 
+  ID?: Number, 
+  departureDate: String, 
+  emptySeats: Number, 
+  _?: Any
+}
+
